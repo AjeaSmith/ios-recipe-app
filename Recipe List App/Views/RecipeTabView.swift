@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct RecipeTabView: View {
+    @State var tabindex = 0
     var body: some View {
         TabView{
             Text("Featured View").tabItem {
