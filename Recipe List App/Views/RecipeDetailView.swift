@@ -18,6 +18,11 @@ struct RecipeDetailView: View {
                 
                 Image(recipe.image).resizable().scaledToFill()
                 
+                Text(recipe.name).bold()
+                    .padding(.top, 20)
+                    .padding(.leading)
+                    .font(.largeTitle)
+                
                 VStack(alignment: .leading) {
                     
                     VStack(alignment: .leading) {
@@ -49,7 +54,7 @@ struct RecipeDetailView: View {
                     }
                 }.padding(.horizontal)
             }
-        }.navigationTitle(recipe.name)
+        }
     }
 }
 
