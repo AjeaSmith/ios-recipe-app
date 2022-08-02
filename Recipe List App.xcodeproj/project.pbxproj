@@ -18,6 +18,7 @@
 		95FFAEF628960B7500FC51D4 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FFAEF528960B7500FC51D4 /* RecipeDetailView.swift */; };
 		95FFAF2328973C9C00FC51D4 /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FFAF2228973C9C00FC51D4 /* RecipeTabView.swift */; };
 		95FFAF272897814100FC51D4 /* RecipeFeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FFAF262897814100FC51D4 /* RecipeFeaturedView.swift */; };
+		95FFAF2B2898F9B000FC51D4 /* Rational.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FFAF2A2898F9B000FC51D4 /* Rational.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		95FFAEF528960B7500FC51D4 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		95FFAF2228973C9C00FC51D4 /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 		95FFAF262897814100FC51D4 /* RecipeFeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeaturedView.swift; sourceTree = "<group>"; };
+		95FFAF2A2898F9B000FC51D4 /* Rational.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rational.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				95FFAEE62895AC7900FC51D4 /* Models */,
 				95FFAEE82895ACAC00FC51D4 /* Services */,
 				95FFAEE72895ACA600FC51D4 /* Data */,
+				95FFAF292898F99600FC51D4 /* Utilities */,
 				95FFAEDA2895ABC700FC51D4 /* Assets.xcassets */,
 				95FFAEDC2895ABC700FC51D4 /* Preview Content */,
 			);
@@ -126,6 +129,14 @@
 				95FFAEF12895B2C500FC51D4 /* DataService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		95FFAF292898F99600FC51D4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				95FFAF2A2898F9B000FC51D4 /* Rational.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +212,7 @@
 			files = (
 				95FFAEF22895B2C500FC51D4 /* DataService.swift in Sources */,
 				95FFAEF628960B7500FC51D4 /* RecipeDetailView.swift in Sources */,
+				95FFAF2B2898F9B000FC51D4 /* Rational.swift in Sources */,
 				95FFAEEE2895AEB700FC51D4 /* Recipe.swift in Sources */,
 				95FFAEF02895B0F600FC51D4 /* RecipeModel.swift in Sources */,
 				95FFAED92895ABC500FC51D4 /* RecipeListView.swift in Sources */,
