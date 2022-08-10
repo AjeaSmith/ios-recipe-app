@@ -3,6 +3,8 @@
 
 - `Arrays` for storing collection of data
 - Swifft lists using the `List` element view
+- `Navigation View` enables to navigate to new screen, `Navigation Link` actually navigates you to specified view, 
+be sure to use `Navigation Link` inside `Navigation View`
 - `Loops` to iterate over an array of items fro index purposes, if you care about the index position instead of data 
 - `Classes` and how they differ from structs
 - `Value` vs `Reference types`, classes share instances (RT) and structs make copies of instances (VT)
