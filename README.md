@@ -20,5 +20,7 @@ Views(UI) renders data, ViewModel handles business logic and state of app.
 ```
 - `Parsing JSON` locally from a file
 - `ForEach` for looping throguh data and output custom UI, diff from using `List` element
-
+- `EnvironmentObject` is a way to share data across multiple views
+- `Geometery reader` gives access to the sizing and postioning of the device. This would help to position views
+in certain places.
 
